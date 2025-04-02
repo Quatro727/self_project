@@ -34,6 +34,11 @@ def password_generator(length, use_uppercase, use_lowercase, use_digits, use_spe
 
 # 사용자 입력 받기
 length = int(input("비밀번호 길이를 입력하세요: "))
+
+##개선할 점##
+#코드가 복잡함->생성기를 함수 하나로 만들지 말고 쪼개서 만들어보기
+#생성함수, 문자 함수1,2,3(딕셔너리 사용하지 말고)
+#클래스화 해서 객체 개념 복습해보기
 use_uppercase = input("대문자를 포함하겠습니까? (y/n): ")
 use_lowercase = input("소문자를 포함하겠습니까? (y/n): ")
 use_digits = input("숫자를 포함하겠습니까? (y/n): ")
